@@ -13,7 +13,7 @@ Then point the cp command in the script to the full path of that template file
 ## LyX keyboard shortcut
 To call the script, add the following keybinding to your Keyboard Shortcut map
 ```
-command-sequence vc-command DM $$p "bash /home/YOURUSERNAME/.local/bin/open_xournalpp.sh $$p $$m"; inset-insert graphics
+vc-command DM $$p "bash /home/m0rtis/.local/bin/open_xournalpp.sh $$p $$m"
 ```
 ## How it works
 1. You trigger the script by pressing the keyboard shortcut of your choice
@@ -21,6 +21,5 @@ command-sequence vc-command DM $$p "bash /home/YOURUSERNAME/.local/bin/open_xour
 3. The script copies the template file into the folder your document is in named by the scheme NAME.xopp
 4. The script opens the copied file in xournalpp for you to draw/sketch
 5. Once xournalpp is closed, the file is converted into svg
-6. A empty image inset is inserted at the cursor position
-7. You click on it and select the svg file
-8. The sketch is included in your document!
+6. A image inset is inserted at the cursor position
+7. The sketch is included in your document!
