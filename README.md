@@ -13,7 +13,7 @@ Then point the cp command in the script to the full path of that template file
 ## LyX keyboard shortcut
 To call the script, add the following keybinding to your Keyboard Shortcut map
 ```
-vc-command DM $$p "bash /home/m0rtis/.local/bin/open_xournalpp.sh $$p $$m"
+vc-command DM $$p "bash /home/YOURUSERNAME/.local/bin/open_xournalpp.sh $$p $$m"
 ```
 ## How it works
 1. You trigger the script by pressing the keyboard shortcut of your choice
